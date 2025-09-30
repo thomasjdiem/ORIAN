@@ -30,7 +30,7 @@ To see options, run
 ```bash
 python3 inference/with_panels/main.py -h
 ```
-if reference panels are available. Or
+if reference panels are available or
 ```bash
 python3 inference/without_panels/main.py -h
 ```
