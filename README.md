@@ -8,7 +8,6 @@ It leverages deep learning to predict ancestry across the genome, offering flexi
 ## Features
 - Run inference **with** or **without** reference panels
 - Pretrained model weights available via Google Drive
-- Handles large genomic datasets
 - Built on PyTorch and scikit-allel
 
 ---
@@ -34,6 +33,5 @@ if reference panels are available or
 ```bash
 python3 inference/without_panels/main.py -h
 ```
-if not. This will create an output inferred ancestries in the specified output directory.
-
+if not. Running this software will create an output directory containing inferred ancestry of each admixed sample, within the current working directory.
 
