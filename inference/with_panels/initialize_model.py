@@ -172,8 +172,8 @@ def initialize_model(gs):
 
     gs.model = NeuralNetwork(gs.input_size).to(gs.device)
 
-    pretrained_model = gs.script_dir + "/state_dict_with_panels.pth.tar"
-    original_state_dict = torch.load(pretrained_model, map_location=torch.device(gs.device), weights_only=True)["model_state_dict"]
+    pretrained_model = gs.script_dir + "/state_dict_with_panels.pth"
+    original_state_dict = torch.load(pretrained_model, map_location=torch.device(gs.device), weights_only=True)
     new_state_dict = gs.model.state_dict()
 
     for name, param in original_state_dict.items():

@@ -7,8 +7,8 @@ files = {
         "id": "1GG1uvokdbM4udjRcDVe0r39rkqPMUYED"
     },
     "with": {
-        "path": "inference/with_panels/state_dict_with_panels.pth.tar",
-        "id": "1rz4FsljZT6wRg1cVo6H4oEyKs0jKkKnu"
+        "path": "inference/with_panels/state_dict_with_panels.pth",
+        "id": "1SogsRYLDEGvkhGxSTyJ9ZUVCsUblR_Ra"
     }
 }
 
