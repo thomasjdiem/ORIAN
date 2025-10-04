@@ -4,11 +4,11 @@ import gdown
 files = {
     "without": {
         "path": "inference/without_panels/state_dict_without_panels.pth",
-        "id": "1GG1uvokdbM4udjRcDVe0r39rkqPMUYED"
+        "file_id": "1GG1uvokdbM4udjRcDVe0r39rkqPMUYED"
     },
     "with": {
         "path": "inference/with_panels/state_dict_with_panels.pth",
-        "id": "1SogsRYLDEGvkhGxSTyJ9ZUVCsUblR_Ra"
+        "file_id": "1SogsRYLDEGvkhGxSTyJ9ZUVCsUblR_Ra"
     }
 }
 
